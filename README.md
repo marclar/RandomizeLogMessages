@@ -1,6 +1,6 @@
 # "RandomizeLogMessages" for SublimeText 2
 
-This package looks for log messages in your code and appends a randomized string to help during debugging.
+Upon saving a file, this package looks for log messages in your code and appends a randomized string to help during debugging.
 
 For example:
 
@@ -14,10 +14,12 @@ becomes:
 console.log('My log message (6785428)');
 ```
 
-... which makes it much easier to search your codebase from your logs.
+... which makes it easier to search your codebase from your logs.
 
 
 ## NOTES:
+
+*Without any editing,*
 
 * This plugin only looks in *.js files.
 * It looks for calls to `log` wherein the first parameter is surrounded by SINGLE quotes.
@@ -27,7 +29,7 @@ console.log('My log message (6785428)');
 
 ## License
 
-All of RandomizeLogMessages is licensed under the MIT licence.
+All of RandomizeLogMessages is licensed under the MIT license.
 
   Copyright (c) 2013 Michael Kane
 
