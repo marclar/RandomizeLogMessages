@@ -25,7 +25,7 @@ console.log('My log message (6785428)');
 * It looks for calls to `log` wherein the first parameter is surrounded by SINGLE quotes.
 * It appends a random 7-digit number in parentheses.
 
-Feel free to edit RandomizeLogMessages.py for your specific needs.
+Feel free to edit `RandomizeLogMessages.py` for your specific needs.
 
 
 ## License
